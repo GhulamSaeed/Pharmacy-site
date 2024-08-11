@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <style>
+        body{
+            background-color: rgb(210, 207, 205);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        Header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #adf702;
+        }
+        .logo img{height: 50px; }
+
+        nav ul{ display: flex;list-style-type: none; gap: 20px;}
+
+        nav ul li a{text-decoration: none; color: rgba(132, 66, 149, 0.983);}
+
+        nav ul li a:hover{color:rgb(161, 41, 41);}
+
+        main{padding: 20px;}
+
+        .home{text-align: center; padding: 20px;}
+
+        .services-g{ display: flex;flex-wrap: wrap;gap: 10px;}
+
+        .service{flex: 1;background-color:
+            
+            #fa0505;padding: 15px;text-align: center;}
+
+        .product-grid{display: flex;flex-wrap: wrap;gap: 20px;}
+
+        .product{flex: 1 1 200px;background-color: #f9f9f9;padding: 15px;text-align: center; border-radius: 36px;
+            background: rgb(2, 89, 252);
+            box-shadow: 20px 20px 30px #b1b1b1,-20px -20px 30px #b7cfcf;}
+
+
+        footer{
+            background-color: #333;
+            color: #4c08f7;
+            padding: 10px 20px;
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 36px;
+            background: #06f202;
+            box-shadow: 20px 20px 30px #b1b1b1,-20px -20px 30px #b7cfcf;
+        }
+        .social_media{display: flex;
+            gap: 20px;
+            color: rgb(231, 191, 15);
+        
+        }
+
+        .social-link{margin-right: 10px;color: rgb(31, 200, 118);text-decoration: none;}
+        .contact-info{
+    color: #fbf9f9;
+        }
+       
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="logo">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\Darukhana_(_Darukhaneh)_-_drugstore_-_Neon.JPG" alt="pharmacy logo"><br>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+     <!--Main Section -->
+    <main>
+     <section id="home">
+        <div class="home">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\pharmacy\Pharmacy_Prague_Dlouha_st..JPG" alt="Welcome to Benner" height="300px">
+            <p>Welcome to Our Pharmacy!</p>
+        </div>
+     </section>
+     <!-- About Section-->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>Brief descriptoin of pharmacy,mission and values.</p>
+      </section>
+
+     <!-- Services Section-->
+      <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-g">
+            <div class="service">Prescription Refills</div>
+            <div class="service">Health Consultations</div>
+            <div class="service">Immunizations</div>
+            <div class="service">Medication Theraphy Management</div>
+        </div>
+      </section>
+
+      <!-- Product Section-->
+       <section id="product-grid">
+        <h2>Our products</h2>
+        <div class="product">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\pharmacy\Kapseln_2.JPG" alt="product part 1">
+            <p></p>
+            <p></p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\pharmacy\Tabletten.JPG" alt="product part 2">
+            <p></p>
+            <p></p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\pharmacy\12-08-18-tilidin-retard.jpg" alt="product part 3">
+            <p></p>
+            <p></p>
+        </div>
+        <div class="product">
+            <img src="c:\Users\User Gh\Desktop\Html&CSS_Parmacy\pharmacy\Vitamin_B12.JPG" alt="product part 4" width="200px">
+            <p></p>
+            <p></p>
+        </div>
+       </section>
+    </main>
+
+<!-- Footer Section-->
+    <footer>
+        <section id="contact">
+        <div class="contact-info">
+            <p>Address: Afghanistan,Herat,Torghondi</p>
+            <p>Email:barezdarwishi786@gmail.com</p>
+            <p>Phone:+93796894272</p>
+
+            
+        </div><p><b>Follow us in Social Media :</b></p>
+        <div class="social_media">
+            <a href="#www.instagram.com" class="social_link">Instagram</a><br>
+            <a href="#www.x.com" class="social_link">X</a><br>
+            <a href="#www.facebook.com" class="social_link">Facebook</a>
+
+
+        </div>
+    </section>
+    </footer>
+
+
+
+
+   
+</body>
+</html>
